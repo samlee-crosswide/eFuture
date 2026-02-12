@@ -1,1 +1,271 @@
-test sdasd
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>e-Future e-Library</title>
+	<!-- Fonts -->
+	<link rel="stylesheet" href="css/fonts.css">
+	<!-- Icons -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+	<div class="wrapper">
+		<!-- Sidebar -->
+		<aside class="sidebar">
+			<div class="logo">
+				<img src="images/common/logo_eLibrary.svg" alt="e-future e-Library">
+				<p class="logo-sub">For Better English Education</p>
+			</div>
+
+			<div class="user-profile">
+				<div class="profile-info">
+					<img src="https://placehold.co/50x50/333/fff?text=H" alt="Profile" class="avatar">
+					<div class="text">
+						<h3>Hongildong</h3>
+						<p>선생님 안녕하세요!!</p>
+					</div>
+				</div>
+				<div class="profile-actions">
+					<button class="btn-outline"><i class="fa-solid fa-arrow-right-from-bracket"></i> Logout</button>
+					<button class="btn-outline"><i class="fa-solid fa-gear"></i> Profile</button>
+				</div>
+			</div>
+
+			<nav class="nav-menu">
+				<ul>
+					<li><a href="#"><img src="images/common/icon_menu01.svg" alt="홈" class="nav-icon"> 홈</a></li>
+					<li><a href="#"><img src="images/common/icon_menu02.svg" alt="학생관리" class="nav-icon"> 학생관리</a></li>
+					<li class="active"><a href="#"><img src="images/common/icon_menu03.svg" alt="반 관리" class="nav-icon">
+							반 관리</a></li>
+					<li><a href="#"><img src="images/common/icon_menu04.svg" alt="학습관리" class="nav-icon"> 학습관리</a></li>
+					<li><a href="#"><img src="images/common/icon_menu05.svg" alt="도서정보" class="nav-icon"> 도서정보</a></li>
+					<li><a href="#"><img src="images/common/icon_menu06.svg" alt="독서랭킹" class="nav-icon"> 독서랭킹</a></li>
+					<li><a href="#"><img src="images/common/icon_menu07.svg" alt="대시보드" class="nav-icon"> 대시보드</a></li>
+				</ul>
+			</nav>
+
+			<div class="sidebar-footer">
+				<p>Copyright ©2025 e-future.<br>All rights reserved.</p>
+			</div>
+		</aside>
+
+		<!-- Main Content -->
+		<main class="main-content">
+			<!-- Header Mobile Only -->
+			<header class="mobile-header">
+				<div class="logo">
+					<img src="https://placehold.co/120x30/ffcc00/000?text=e-future" alt="e-future">
+				</div>
+				<button class="menu-toggle">
+					<i class="fa-solid fa-bars"></i>
+				</button>
+			</header>
+
+			<div class="dashboard-container">
+				<!-- Reading Status Section -->
+				<section class="section-header">
+					<h2>독서현황</h2>
+					<div class="filters">
+						<select>
+							<option>All Classes</option>
+						</select>
+						<select>
+							<option>All Students</option>
+						</select>
+						<button class="btn-primary">조회</button>
+					</div>
+				</section>
+
+				<!-- Status Cards -->
+				<section class="status-cards">
+					<div class="card card-teal">
+						<div class="card-dots"><i class="fa-solid fa-ellipsis"></i></div>
+						<h3>14</h3>
+						<p>어제 완료한 학습</p>
+					</div>
+					<div class="card card-blue">
+						<div class="card-dots"><i class="fa-solid fa-ellipsis"></i></div>
+						<h3>9</h3>
+						<p>오늘 완료한 학습</p>
+					</div>
+					<div class="card card-dark-blue">
+						<div class="card-dots"><i class="fa-solid fa-ellipsis"></i></div>
+						<h3>28</h3>
+						<p>1주 완료한 학습</p>
+					</div>
+					<div class="card card-purple">
+						<div class="card-dots"><i class="fa-solid fa-ellipsis"></i></div>
+						<h3>132</h3>
+						<p>한달 완료한 학습</p>
+					</div>
+				</section>
+
+				<!-- Attendance Section -->
+				<section class="attendance-section">
+					<div class="attendance-header">
+						<h3>출석현황 <span>18 명</span></h3>
+					</div>
+					<div class="student-carousel">
+						<button class="nav-btn prev"><i class="fa-solid fa-chevron-left"></i></button>
+						<div class="student-list">
+							<!-- Mock Students -->
+							<div class="student-item">
+								<img src="https://placehold.co/40x40" alt="Student">
+								<span class="student-name">정우민</span>
+								<span class="hover-text">학습현황</span>
+							</div>
+							<div class="student-item">
+								<img src="https://placehold.co/40x40" alt="Student">
+								<span class="student-name">윤철수</span>
+								<span class="hover-text">학습현황</span>
+							</div>
+							<div class="student-item">
+								<img src="https://placehold.co/40x40" alt="Student">
+								<span class="student-name">이영희</span>
+								<span class="hover-text">학습현황</span>
+							</div>
+							<div class="student-item">
+								<img src="https://placehold.co/40x40" alt="Student">
+								<span class="student-name">오정애</span>
+								<span class="hover-text">학습현황</span>
+							</div>
+							<div class="student-item">
+								<img src="https://placehold.co/40x40" alt="Student">
+								<span class="student-name">오정애</span>
+								<span class="hover-text">학습현황</span>
+							</div>
+						</div>
+						<button class="nav-btn next"><i class="fa-solid fa-chevron-right"></i></button>
+					</div>
+				</section>
+
+				<!-- Bottom Grid -->
+				<div class="bottom-grid">
+					<!-- Left Column -->
+					<div class="left-col">
+						<!-- Ranking -->
+						<div class="ranking-card bg-white">
+							<div class="card-header">
+								<h3>2월 독서랭킹</h3>
+								<a href="#" class="more-link">자세히보기 <i class="fa-solid fa-chevron-right"></i></a>
+							</div>
+							<div class="ranking-list">
+								<div class="rank-item">
+									<img src="images/main/ranking01.svg" alt="1st" class="medal-img">
+									<div class="info">
+										<strong>조유리</strong>
+										<span>Test_Class2</span>
+									</div>
+									<div class="stats">
+										<div>214권 <span>학습량</span></div>
+										<div>516P <span>포인트</span></div>
+									</div>
+								</div>
+								<div class="rank-item">
+									<img src="images/main/ranking02.svg" alt="2nd" class="medal-img">
+									<div class="info">
+										<strong>박서준</strong>
+										<span>Test_Class2</span>
+									</div>
+									<div class="stats">
+										<div>214권 <span>학습량</span></div>
+										<div>516P <span>포인트</span></div>
+									</div>
+								</div>
+								<div class="rank-item">
+									<img src="images/main/ranking03.svg" alt="3rd" class="medal-img">
+									<div class="info">
+										<strong>이민호</strong>
+										<span>Test_Class2</span>
+									</div>
+									<div class="stats">
+										<div>214권 <span>학습량</span></div>
+										<div>516P <span>포인트</span></div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Customer Center -->
+						<div class="customer-card bg-white">
+							<div class="card-header">
+								<h3>고객센터</h3>
+								<a href="#" class="more-link">자세히보기 <i class="fa-solid fa-chevron-right"></i></a>
+							</div>
+							<ul class="notice-list">
+								<li>
+									<span class="title highlight">나의 문의글에 답변이 완료 되었습니다.</span>
+									<span class="date">2025.10.17</span>
+								</li>
+								<li>
+									<span class="title">e-Library Renewal!!</span>
+									<span class="date">2025.08.14</span>
+								</li>
+								<li>
+									<span class="title">e-Library Open!!</span>
+									<span class="date">2024.12.15</span>
+								</li>
+								<li>
+									<span class="title">나의 문의글에 답변이 완료 되었습니다.</span>
+									<span class="date">2024.12.15</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<!-- Right Column -->
+					<div class="right-col">
+						<div class="feature-card bg-white">
+							<div class="icon-circle text-blue"><i class="fa-solid fa-circle-play"></i></div>
+							<div class="text">
+								<strong>Audio Player</strong>
+								<p>바로 재생하는<br>오디오 스트리밍 서비스!!</p>
+							</div>
+							<i class="fa-solid fa-chevron-right arrow"></i>
+						</div>
+						<div class="feature-card bg-white">
+							<div class="icon-circle text-blue"><i class="fa-solid fa-medal"></i></div>
+							<div class="text">
+								<strong>Level Test</strong>
+								<p>테스트 결과 맞춤형<br>교재 추천!!</p>
+							</div>
+							<i class="fa-solid fa-chevron-right arrow"></i>
+						</div>
+
+						<div class="download-grid">
+							<div class="mini-card bg-white">
+								<i class="fa-solid fa-download"></i>
+								<p>Teacher's Manual Download</p>
+							</div>
+							<div class="mini-card bg-white">
+								<i class="fa-regular fa-comments"></i>
+								<p>원격지원서비스</p>
+								<span class="small">평일 10시~18시<br>(점심시간 12시~13시)</span>
+							</div>
+						</div>
+
+						<div class="social-links bg-white">
+							<a href="#" class="social-icon green"><i class="fa-solid fa-blog"></i></a>
+							<a href="#" class="social-icon blue"><i class="fa-brands fa-facebook-f"></i></a>
+							<a href="#" class="social-icon red"><i class="fa-brands fa-youtube"></i></a>
+							<a href="#" class="social-icon yellow">e</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+
+</html>
